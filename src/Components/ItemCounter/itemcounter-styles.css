@@ -1,0 +1,12 @@
+.counter-title{
+    text-align: center;
+    padding-top:50px;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;   
+}
+
+@media (min-width: 768px) {
+    .counter-title {
+        font-size: 50px;
+    }
+}

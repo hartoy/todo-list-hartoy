@@ -1,0 +1,29 @@
+.input-div{
+    display:flex;
+    justify-content:center;
+}
+
+.work-searcher{
+    text-align: center;
+    height: 50px;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+@media (min-width: 768px) {
+    .work-searcher::placeholder {
+        font-size: 20px;
+    }
+    .input-div input{
+        font-size: 20px;
+    }
+}

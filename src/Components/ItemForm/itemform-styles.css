@@ -1,0 +1,98 @@
+form {
+    width: 90%;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 33px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Caveat', cursive;
+    border-radius: 10px;
+}
+
+label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1E1E1F;
+    margin-bottom: 26px;
+}
+
+textarea {
+    background-color: #F9FBFC;
+    border: 2px solid #E54E60;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px #E54E60;
+    color: #1E1E1F;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    height: 96px;
+    width: calc(100% - 25px);
+    border-radius: 10px;
+}
+
+textarea::placeholder {
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-align: left;
+}
+
+textarea:focus {
+    outline-color: #107E39;
+    box-shadow: 0px 5px 15px #107E39;
+}
+
+.buttonContainer {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.buttonBasic {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    width: 120px;
+    height: 48px;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Montserrat';
+    border-radius: 10px;
+}
+
+.button-add {
+    background: #107E39;
+    box-shadow: 0px 5px 25px #107E39;
+}
+
+.button-add:hover {
+    background: #1D4E27;
+    box-shadow: 0px 5px 25px #1D4E27;
+    color:white;
+}
+
+.button-cancel {
+    background: #E54E60;
+    box-shadow: 0px 5px 25px #E54E60;
+}
+
+.button-cancel:hover {
+    background: #671218;
+    box-shadow: 0px 5px 25px #671218;
+}
+
+
+
+
+@media (min-width: 768px) {
+    form {
+        max-width: 600px;
+    }
+}
